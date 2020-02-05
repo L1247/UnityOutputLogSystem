@@ -24,7 +24,7 @@ public static class FileUtility
     public static void CaptureScreenShot(string foldPath , int exceptionIndex)
     {
         CheckFoldPath(foldPath);
-        var fileInfo = /*$"ExceptionIndex : {exceptionIndex} ; " + */DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss") + ".png";
+        var fileInfo = $"{exceptionIndex}-" + DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss") + ".png";
         var filename = Path.Combine(foldPath, fileInfo);
         ScreenCapture.CaptureScreenshot(filename);
     }
