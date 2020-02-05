@@ -1,8 +1,0 @@
-Exception Index : 16
-Data and time : 2020/2/6 上午 03:31:30
-Condition : IndexOutOfRangeException: Index was outside the bounds of the array.
-Type : Exception
-Stacktrace : Test.TT () (at Assets/Scripts/LogMonoBehaviour.cs:81)
-LogMonoBehaviour.TryToError () (at Assets/Scripts/LogMonoBehaviour.cs:72)
-LogMonoBehaviour.Start () (at Assets/Scripts/LogMonoBehaviour.cs:24)
-
